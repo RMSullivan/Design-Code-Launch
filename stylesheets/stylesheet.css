@@ -1,0 +1,110 @@
+body,hr {
+  font-family: 'Catamaran', sans-serif;
+  color: #000;
+  margin:0;
+  padding:0;
+}
+h1 {
+  font-family: 'Barlow Extra-Bold', sans-serif;
+}
+.main {
+  margin: 20px;
+}
+.bg-img {
+  /* The image used */
+  background-image: url("../public/food1.jpg");
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.nav {
+  position: absolute;
+  width: 100%;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #fff;
+  opacity:0.6;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  padding: 14px 125px;
+  text-decoration: none;
+  font-family: 'Barlow Extra-Bold', sans-serif;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  color: #505050;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+ float: left;
+ padding: 3px;
+}
+
+/* Style the images inside the grid */
+.column img {
+ opacity: 1;
+ cursor: pointer;
+}
+
+.column img:hover {
+ opacity: 0.8;
+}
+
+/* Clear floats after the columns */
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container {
+ position: relative;
+ display: none;
+  left: 10px;
+}
+
+/* Expanding image text */
+#imgtext {
+ position: absolute;
+ bottom: 15px;
+ left: 15px;
+ color: white;
+ font-size: 20px;
+}
+
+/* Closable button inside the image */
+.closebtn {
+ position: absolute;
+ top: 10px;
+ right: 500px;
+ color: white;
+ font-size: 35px;
+ cursor: pointer;
+}
+.reviews {
+  text-align: center;
+}
+
+footer {
+  background-color: #696969;
+  opacity:0.8;
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,105 @@
+<!doctype html>
+	<html lang="en">
+		<head>
+			<meta charset="utf-8"/>
+				<title> Clinton Cafe </title>
+				<!-- Style Sheets for page-->
+				<link rel="stylesheet" href="./stylesheets/stylesheet.css">
+		 		<script src="myscripts.js"></script>
+				 <link href="https://fonts.googleapis.com/css?family=Barlow|Catamaran" rel="stylesheet">
+	<body>
+		<!-- menu-->
+		<div class="bg-img">
+ 			<div class="nav">
+	 			<div class="topnav">
+					<a href = "#index"> HOME </a>
+ 				 <a href = "#photos">PHOTOS</a>
+ 				 <a href = "#food">MENU</a>
+ 				 <a href = "#reviews"> REVIEWS </a>
+	 			</div>
+ 			</div>
+		</div>
+
+
+		<!-- Body -->
+		<div class="main">
+		<a id="index"></a>
+			<h1>THE CLINTON CAFE</H1>
+				<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras interdum nunc in ex ornare mollis.
+				Vestibulum a augue eget magna maximus feugiat gravida sit amet massa. Nullam in nulla quis purus bibendum
+				eleifend vel eget ante. Donec aliquam turpis vel rutrum porttitor. Etiam fermentum quam at diam bibendum vestibulum.
+				Nullam libero nunc, molestie ac magna quis, tristique faucibus metus.
+				<br>
+				<br>
+				Etiam et rutrum ligula, vel consectetur risus.
+				Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean magna orci, blandit
+				at felis at, facilisis malesuada magna. Aliquam eget libero cursus, ultrices justo id, hendrerit dolor.
+				Nulla facilisis, felis at tristique maximus, lectus urna semper purus, vel tincidunt justo mi efficitur diam.
+				Phasellus imperdiet a eros non hendrerit. Vivamus lobortis sapien non bibendum interdum. Interdum et malesuada
+				fames ac ante ipsum primis in faucibus.
+				</p>
+
+
+
+			<!-- The grid: three columns -->
+				<a id="photos"></a>
+				<h1>PHOTOS</h1>
+				Select photo to expand image.
+					<div class="row">
+ 						<div class="column">
+	 						<img src="public/FOOD2.jpg" alt="Food photo by Rita Sullivan" style="width:300px" onclick="myFunction(this);">
+ 						</div>
+ 						<div class="column">
+	 						<img src="public/FOOD3.jpg" alt="Food photo by Rita Sullivan" style="width:300px" onclick="myFunction(this);">
+ 						</div>
+ 						<div class="column">
+	 						<img src="public/FOOD4.jpg" alt="Food photo by Rita Sullivan" style="width:300px" onclick="myFunction(this);">
+ 						</div>
+						<div class="column">
+	 						<img src="public/FOOD5.jpg" alt="Food photo by Rita Sullivan" style="width:300px" onclick="myFunction(this);">
+ 						</div>
+					</div>
+		<!-- The expanding image container -->
+		<div class="container">
+ 			<!-- Close the image -->
+ 				<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+ 		<!-- Expanded image -->
+ 				<img id="expandedImg" style="width:65%">
+
+ 		<!-- Image text -->
+ 				<div id="imgtext"></div>
+		</div>
+
+
+
+			<a id="food"></a>
+			<h1>OUR MENU</h1>
+				<ul>
+					<li>Soup of the day $6.00</li>
+					<li> Quiche $10.25</li>
+					<li>Ham & Cheese Croissant $10.25</li>
+					<li>Friand $10.25</li>
+					<li>Spinach Pochette $10.25</li>
+					<li>Caesar Small $7.25 | Large $10.50</li>
+					<li>Assiette Campagnarde $15.50</li>
+					<li>Skirt Steak $17.50</li>
+					<li>Shepherd’s Pie $14.50</li>
+					<li>Half Rotisserie Chicken $14.25</li>
+					<li>Curry Chicken Pot Pie $15.25</li>
+					<li>Chicken Marsala $15.25</li>
+				</ul>
+			</div>
+
+
+			 <a id="reviews"></a>
+			 <div class="reviews">
+			 	<h2>CHECK OUT OUR REVIEWS <br>
+					<a href="https://www.yelp.com/" target="_blank"><img src="public/yelp_fullcolor.png" alt="Yelp Logo" style="width:150px"></a>
+					</h2>
+			</div>
+			<footer>
+				SITE DESIGN BY R. SULLIVAN | PHOTOS BY R. SULLIVAN
+			</footer>
+  </body>
+</html>
